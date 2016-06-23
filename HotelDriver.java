@@ -180,7 +180,7 @@ public class HotelDriver{
       boolean clientFound = false;
       for(int i = 0; i < allClients.size(); i++) {
          if((allClients.get(i).getLastName().equals(name)) && (allClients.get(i).getCustomerID() == id)){
-            System.out.println(allClients.get(i).toString());
+            System.out.println(allClients.get(i).output());
             clientFound = true;
          }
          
